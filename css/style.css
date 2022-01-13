@@ -37,13 +37,14 @@ html {
 }
 
 .titulo-principal {
+  margin-top: 40px;
   text-align: center;
-  font-size: 70px;
-  font-weight: normal;
+  font-size: 60px;
+  font-weight: 800;
 }
 
 .construction {
-  font-weight: 800;
+  font-weight: normal;
 }
 
 .subtitulo {
@@ -66,7 +67,7 @@ html {
 .contact {
   display: flex;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .follow {
@@ -98,6 +99,16 @@ html {
 }
 
 @media (max-width: 768px) {
+  
+h1.titulo.subtitulo.subtitulo-3 {
+  font-size: 14px !important;
+}
+   .subtitulo-2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px !important;
+    font-weight: 900;
+  }
   .main-principal {
     height: 105vh;
   }
@@ -114,13 +125,13 @@ html {
 
   .titulo-principal {
     text-align: center;
-    font-size: 40px;
-    font-weight: normal;
+    font-size: 30px;
+    font-weight: 800;
   }
 
   .subtitulo {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .img-log {
@@ -135,4 +146,19 @@ html {
    margin-top: -20px;
    font-size: 12px;
   }
+}
+
+h1.titulo.subtitulo-2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.margen{
+  margin-top: 20px;
+}
+
+h1.titulo.subtitulo.subtitulo-3 {
+  font-size: 20px !important;
 }
