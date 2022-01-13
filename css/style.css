@@ -37,7 +37,7 @@ html {
 }
 
 .titulo-principal {
-  margin-top: 40px;
+  margin-top: 80px;
   text-align: center;
   font-size: 60px;
   font-weight: 800;
@@ -161,4 +161,8 @@ h1.titulo.subtitulo-2 {
 
 h1.titulo.subtitulo.subtitulo-3 {
   font-size: 20px !important;
+}
+
+h1.titulo.subtitulo.subtitulo-3.margen.margen-negativo.mt-5 {
+  margin-top: 60px !important;
 }
